@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS BASICS</title>
+        <link rel="stylesheet" href="index2.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <p>div element: div class="classname" <br>making a class: use .square{}in css sheet to make a square class</p>
+        <div class="square"></div>
+        <p>id item: div id="name"<br> making a id: use #circle in css sheet to make a class<br>id name should be very specific, very unique</p>
+        
+        <div id="circle">Hey Im a circle</div>
+        
+        <div class="container">
+            <h1>this is a container element</h1>
+            <div>
+            <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/is_my_cat_normal_slideshow/1800x1200_is_my_cat_normal_slideshow.jpg" class="borderImg">
+            <ul>
+                <li>ul li{}cover every li under ul style</li>
+                <li>ul >li {} only cover one level deep</li>
+                <ol>
+                    <li>cat nose</li>
+                    <li>cat mouth</li>
+                </ol>
+                <li>cat skate</li>
+            </ul>
+        </div>
+        </div>
+        <p><b>CSS grouping:</b>we can group settings with the same properties together like h1, h2, h3{}, and can add .class and #id together</p>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <p>same element being set twice will give result depending on most specificity value<br>
+        equal value attributes that being set twice, the last will win such as h1{} and h1{}, the latter will overlap the overall color<br>use div h1{} give the h1 under div to specific and others not<br>html h1{}, body h1{}, div h1{} all have 2 elements, and the last one wins.<br>.container h1{} has 11 elements, this one wins<br></p>
+        <img src="specifity.png">
+        <br><br>
+        <a href="#">a tag can be done text decoration. </a>
+        <div class="formatting">
+            <div><b>bold</b></div>
+            <div><i>leaning</i></div>
+            <div><em>emphasized</em></div>
+            <div><strong>strong</strong></div>
+            <div><del>delete</del></div>
+            <div><mark>mark my words </mark></div>
+        </div>
+        <hr>
+        <div class="fonts"><p><b>GOOGLE FONTS : https://fonts.google.com/?category=Display</b><br> insert into head tag</p>
+        </div>
+        
+    </body>
+</html>

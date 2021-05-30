@@ -1,0 +1,78 @@
+html{
+    font-family:"Time New Roman",serif,sans-serif; /*browser use one of them, "" for imported fonts*/
+    
+}
+
+body{
+    text-align: center;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-pure-color-watercolor-graffiti-gradient-background-board-design-board-design-image_66713.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+h1,h2,h3{
+    color:red;
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+    line-height: 1rem;
+    font-family:sans-serif;
+    font-style:italic;
+}
+
+html h1{
+    color:aliceblue;
+}
+body h1{
+    color:green;
+}
+div h1{
+    color:blue;
+}
+.square{
+    width: 100px;
+    height:100px;
+    background-color:green;
+    margin: auto;
+}
+#circle{
+    color:yellowgreen;
+    font-size: 40px;
+    
+}
+.container{
+    background-color:linear-gradient(to right, #ffffff,#075ade);
+    box-shadow: 3px 3px 3px blue;
+}
+.borderImg{
+    border:10px solid green;
+    width: 300px;
+    border-right:20px solid blue;
+    border-left:5px dashed white;  
+}
+
+ul li{
+    color:darkcyan;
+    font-size: 20px;
+}
+ul>li{
+    color:blue;
+    font-size: 20px;
+}
+
+a{
+    text-decoration:line-through;
+    color:orange;
+    letter-spacing: 10px;
+    word-spacing:30px;
+    text-transform: capitalize;
+    
+}
+
+.formatting{
+    font-size:25px;
+    line-height: 2em;
+    color:blue;
+}
+.fonts{
+    line-height: :2rem;
+    font-family: "Limelight";
+}
